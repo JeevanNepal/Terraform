@@ -2,3 +2,17 @@ What is terraform?
 
 Terraform is an infrastructure-as-code software tool created by HashiCorp. Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, 
 or optionally JSON.
+
+It is useful in case of of multicloud and hybrid cloud.
+It uses hashicrop configure language, it is similar to json but easy and human readable.
+
+
+Infrastructure as code (IAC) is the managing and provisioning of infrastructure through code instead of through manula process.
+
+
+===================================================
+There are two ways to approach IAC:
+A: Imperative & B: Declarative.
+1: Imperative: Imperative approach defines the specific commands needed to achieve the desired configuration and those commands then needs to be executed in correct order.
+2: Declarative: It defines the desired steps of the system, including what resources you need and any properties they should have and and IAC tool will configure for you. 
+Basically declarative way does not require correct steps to be executed to get the expected output.
