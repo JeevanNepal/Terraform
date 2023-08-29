@@ -16,3 +16,16 @@ A: Imperative & B: Declarative.
 1: Imperative: Imperative approach defines the specific commands needed to achieve the desired configuration and those commands then needs to be executed in correct order.
 2: Declarative: It defines the desired steps of the system, including what resources you need and any properties they should have and and IAC tool will configure for you. 
 Basically declarative way does not require correct steps to be executed to get the expected output.
+
+
+
+
+
+
+
+==================================================
+It is important to understand the difference between configuration management tool and IAC tool.
+Ansible, chef anf puppet are configuration management tools which means they are primiraliy desined to install and manage software on existing servers.
+
+Terraform and cloudformtion are IAC tools which are designed to provision servers and infrastructures themselves.
+
